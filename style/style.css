@@ -19,6 +19,11 @@
   margin: 0 auto;
 }
 
+.header {
+  background-color: #EEEFF1;
+  padding-top: 79px;
+}
+
 .header_list > .item {
   display: inline-block;
 }
