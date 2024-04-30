@@ -29,15 +29,12 @@
 }
 
 .header_list a {
-font-family: Roboto;
+font-family: Roboto-regular;
 font-size: 16px;
 font-weight: 500;
-line-height: 26.25px;
 letter-spacing: 0.1em;
 color: black;
 text-decoration: none;
-
-
 }
 
 .header_list .active {
@@ -46,4 +43,46 @@ text-decoration: none;
 
 .header_list .margin ~ .item {
   margin-left: 42px;
+}
+
+.main_title {
+font-family: Roboto-Bold;
+font-size: 48px;
+font-weight: 500;
+line-height: 78.75px;
+text-align: left;
+padding-top: 162px;
+
+}
+
+.text_info {
+font-family: Roboto-regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 26.25px;
+text-align: left;
+color: #727272;
+width: 540px;
+margin-top: 60px;
+}
+
+.button {
+font-family: RobRoboto-regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 26.25px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #FFFFFF;
+width: 225px;
+height: 65px;
+background-color: #34547A;
+border: none;
+margin-top: 65px;
+margin-bottom: 141px;
+
+}
+
+.main {
+  background-color: #EEEFF1;
 }
